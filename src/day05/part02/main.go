@@ -152,7 +152,7 @@ func computer(input int, procode []int, pointer int) int {
 		fmt.Println("output: ", input)
 		return input
 	}
-	fmt.Println("Dropped out of loop", opcode, input)
+	fmt.Println("Diagnostic Error, returning output", opcode, input)
 	return input
 }
 
